@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AutomationExercises.baseapageFolder
 {
-    internal class driverClass
+  public  class driverClass
     {
+        
     }
 }

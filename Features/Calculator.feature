@@ -7,7 +7,14 @@ Link to a feature: [Calculator](AutomationExercises/Features/Calculator.feature)
 
 @mytag
 Scenario: Add two numbers
-	Given the first number is 50
+	Given the first number is 100000
+	And the second number is 70
+	When the two numbers are added
+	Then the result should be 121
+
+
+Scenario: Add four numbers
+	Given the first number is 100000
 	And the second number is 70
 	When the two numbers are added
 	Then the result should be 121

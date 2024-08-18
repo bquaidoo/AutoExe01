@@ -17,4 +17,4 @@ Scenario: Add four numbers
 	Given the first number is 100000
 	And the second number is 70
 	When the two numbers are added
-	Then the result should be 121
+	Then the result should be 124

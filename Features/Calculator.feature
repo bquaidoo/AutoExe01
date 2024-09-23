@@ -8,13 +8,13 @@ Link to a feature: [Calculator](AutomationExercises/Features/Calculator.feature)
 @mytag
 Scenario: Add two numbers
 	Given the first number is 100000
-	And the second number is 70
+	And the second number is 700
 	When the two numbers are added
 	Then the result should be 121
 
 
 Scenario: Add four numbers
-	Given the first number is 100000
+	Given the first number is 10000
 	And the second number is 70
 	When the two numbers are added
-	Then the result should be 121
+	Then the result should be 125
